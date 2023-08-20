@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=popins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"popkins",sans-serif;
+}
+body{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height: 100vh;
+    /* background-image: url('back.jpg') ; */
+    /* background-size: cover; */
+    /* /* background-image:url('back.jpg'); */
+    background-position:center;
+    
+}
+.upper h1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: red;
+}
+.upper h1:hover{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: green;
+    cursor: pointer;
+}
+.search input{
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    border-radius: 5px;
+    font-size:large;
+}
+.login a{
+    position: absolute;
+    left: 390px;
+    top:20px;
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+}
+.signup a{
+    position: absolute;
+    left: 470px;
+    top:20px;
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+}
+.card1{
+    position: absolute;
+    left: 10px;
+    top: 70px;
+}
+.card2{
+    position: absolute;
+    left: 400px;
+    top:5px ;
+}
+#like{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    color: rgb(4, 213, 189);
+}
+.card3{
+    position: absolute;
+    left: 800px;
+    top:5px ;
+}
+.card4{
+    position: absolute;
+    left: 1200px;
+    top:5px ;
+}
+.upper .login a{
+ color: red;
+}
+.upper .signup a{
+    color: red;
+}
+.h1:hover{
+   color: azure;
+}
